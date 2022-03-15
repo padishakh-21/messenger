@@ -1,0 +1,180 @@
+.chatbox {
+    width: 435px;
+    margin-top: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+}
+
+.messenger-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(106, 150, 216);
+    border-radius: 14px 14px 0px 0px;
+    padding-top: 33px;
+    padding-bottom: 30px;
+}
+
+.messenger-list {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.messenger-list ::marker {
+    font-size: 22px;
+}
+
+.text {
+    margin: 0;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transform: rotate(45deg);
+    margin-right: 16px;
+}
+
+.chat-message {
+    background-color: rgb(255, 255, 255);
+}
+
+.date {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.line {
+    width: 120px;
+    height: 2px;
+    border: none;
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+}
+
+.day {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: rgb(221, 221, 221);
+}
+
+.message-list {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+    padding-bottom: 0;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.message-item {
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    margin: 0;
+    margin-left: 10px;
+    padding-bottom: 13px;
+}
+
+.item-float {
+    margin: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+.message-text {
+    margin: 0;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    background: rgb(230, 237, 246);
+    border-radius: 5px;
+}
+
+.text-first {
+    width: 230px;
+}
+
+.text-two {
+    width: 290px;
+    text-align: left;
+}
+
+.message {
+    width: 89px;
+}
+
+.message-last {
+    width: 210px;
+    text-align: left;
+    background-color: rgb(255, 194, 193);
+}
+
+.message-time {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: rgb(221, 221, 221);
+}
+
+.item-corner {
+    width: 15px;
+    height: 12px;
+    background-color: rgb(230, 237, 246);
+    position: absolute;
+    top: 18.5px;
+    left: -10px;
+}
+
+.linear {
+    width: 10px;
+    height: 15px;
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1px;
+    border-top-right-radius: 50px;
+}
+
+.site-form {
+    padding: 0 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.textarea {
+    width: 100%;
+    padding: 13px 20px;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+    outline: none;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 54px;
+}
+
+.form-btn {
+    width: 91px;
+    height: 37px;
+    padding: 9px 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(106, 150, 216);
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
